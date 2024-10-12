@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/users';
+const API_URL = 'https://leaderboard-backend-mp03.onrender.com/api/users';
 
 export const getUsers = () => axios.get(API_URL);
 export const addUser = (name) => axios.post(API_URL, { name });
